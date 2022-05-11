@@ -1,5 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body></body>
+    <head>
+        <link rel="stylesheet" href="./app.css">
+    </head>
+    <body>
+        <form class = "form-class">
+            <h1>Registration From</h1>
+                <div class="form-input name" >
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" />
+                </div>
+                <div class="form-input username">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" />
+                </div>
+                <div class="form-input password">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" />
+                </div>
+                <div class="form-input age">
+                    <label for="age">Age</label>
+                    <input type="age" name="age" placeholder="ex. 1234" />
+                </div>
+                <div class="form-input email">
+                    <label for="email" >Email</label>
+                    <input type="email" name="email" />
+                </div>
+                <div class="form-input gender">
+                    <label for="email" >Gender</label>
+                    <select id="gender-drop">
+                        <option value="volvo">Male</option>
+                        <option value="saab">Femail</option>
+                        <option value="opel">Other</option>
+                    </select>
+                </div>
+                <div class="form-input accept">
+                    <label for="accept">I accept the terms and conditions</label>
+                    <input type="checkbox" name="accept" />
+                </div>
+                <div class="form-input submit">
+                    <input type="submit" value="Submit" />
+                </div>
+              </form>
+    </body>
 </html>
